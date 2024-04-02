@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_internals/keys/keys.dart';
 
 void main() {
+  var numbers = [1, 2, 3];
+  numbers.add(4);
+
   runApp(const App());
 }
 
